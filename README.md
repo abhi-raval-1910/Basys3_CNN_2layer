@@ -15,7 +15,7 @@ conv instance, 18 total — well within the 90-DSP budget).
   -> Argmax -> 7-seg digit + LEDs
 ```
 
-**Two upgrades over the single-conv / single-MAC starter project:**
+**Two upgrades over the Single-conv / Single-MAC starter project:**
 
 1. **Second conv layer.** The model is now Conv1(1→8) → Pool → Conv2(8→16) →
    Pool → FC(400→10). All engines (`conv_engine.v`, `pool_engine.v`,
