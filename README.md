@@ -112,7 +112,7 @@ handshakes (`conv_engine`, `pool_engine`, `fc_engine`, `argmax10`).
 ## File map
 
 ```
-CNN_FPGA/
+Basys3_CNN_2layer/
 ├── rtl/
 │   ├── dp_ram.v            - generic dual-port RAM (Vivado infers BRAM)
 │   ├── weight_rom.v        - generic weight ROM, loaded from a .mem hex file
@@ -140,7 +140,7 @@ CNN_FPGA/
 │   ├── tb_top_known.v       - loads a real MNIST test image and checks the predicted digit
 │   ├── tb_timing.v          - per-stage timing testbench
 │   └── test_image_*.mem     - sample MNIST digits (0-9) for tb_top_known.v
-├── CNN_FPGA_Complete_Overview  - complete system explanation 
+├── CNN_FPGA_Complete_Overview.pdf  - complete system explanation 
 └── README.md                - this file
 ```
 
