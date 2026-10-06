@@ -1,0 +1,47 @@
+# ---- Python ----
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+.venv/
+venv/
+
+# ---- PyTorch / model artifacts ----
+*.pth
+*.pt
+*.onnx
+
+# ---- Vivado / Xilinx build outputs ----
+.Xil/
+*.jou
+*.log
+*.str
+*.bak
+*.pb
+*.xpr
+*.hw_export.zip
+*.bit
+*.bin
+*.ltx
+*.mmi
+*.sysdef
+*.mif
+*.mem.tmp
+*.runs/
+*.cache/
+*.gen/
+*.hw/
+*.ip_user_files/
+*.sim/
+vivado_*.zip
+
+# ---- Editor / IDE ----
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# ---- OS ----
+.DS_Store
+Thumbs.db
