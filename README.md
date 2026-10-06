@@ -143,7 +143,6 @@ Basys3_CNN_2layer/
 ├── CNN_FPGA_Complete_Overview.pdf  - complete system explanation 
 └── README.md                - this file
 ```
-
 ## Step-by-step
 
 ### 1. (Optional but recommended) Re-train the model
